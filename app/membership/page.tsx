@@ -46,7 +46,7 @@ export default function MembershipPage() {
 
       {/* Hero Section */}
       <section className="relative h-80 bg-gradient-to-r from-secondary to-accent text-secondary-foreground overflow-hidden">
-        <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url(/images/hero-4.jpg)', backgroundSize: 'cover' }} />
+        <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url(/member.jpg)', backgroundSize: 'cover' }} />
         <div className="relative h-full flex items-center justify-center text-center px-4">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Join Our Ministry</h1>

@@ -38,7 +38,7 @@ export default function DonatePage() {
 
       {/* Hero Section */}
       <section className="relative h-96 bg-gradient-to-r from-primary via-secondary to-accent text-primary-foreground overflow-hidden">
-        <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url(/images/hero-1.jpg)', backgroundSize: 'cover' }} />
+        <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url(/donate.png)', backgroundSize: 'cover' }} />
         <div className="relative h-full flex items-center justify-center text-center px-4">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Make a Donation</h1>

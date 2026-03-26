@@ -35,7 +35,7 @@ export default function AboutPage() {
 
       {/* Hero Section */}
       <section className="relative h-96 bg-gradient-to-r from-primary to-secondary text-primary-foreground overflow-hidden">
-        <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url(/images/hero-1.jpg)', backgroundSize: 'cover' }} />
+        <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url(/about.png)', backgroundSize: 'cover' }} />
         <div className="relative h-full flex items-center justify-center text-center px-4">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">About Our Ministry</h1>
@@ -99,13 +99,15 @@ export default function AboutPage() {
                 of God&apos;s faithfulness.
               </p>
             </div>
-            <div className="order-1 md:order-2 relative h-96 rounded-xl overflow-hidden shadow-2xl ">
+            <div className="order-1 md:order-2 flex justify-center">
               <Image
-                src="/founder.png"
-                alt="Juliet Nakanwagi Lutakome - Founder"
-                fill
-                className="object-contain"
-              />
+                    src="/founder.png"
+                    alt="Juliet Nakanwagi Lutakome - Founder"
+                    width={500}
+                    height={500}
+                    className="mx-auto rounded-2xl shadow-lg mb-6 w-72 h-72 object-cover"
+                  />
+                 
             </div>
           </div>
         </div>
@@ -143,7 +145,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/luzira-prison-visit.jpg"
+                  src="/pregnant.png"
                   alt="Luzira Prison Visit"
                   fill
                   className="object-cover"

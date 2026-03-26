@@ -35,7 +35,7 @@ export default function ServicesPage() {
 
       {/* Hero Section */}
       <section className="relative h-80 bg-gradient-to-r from-primary to-secondary text-primary-foreground overflow-hidden">
-        <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url(/images/services-counseling.jpg)', backgroundSize: 'cover' }} />
+        <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url(/services.png)', backgroundSize: 'cover' }} />
         <div className="relative h-full flex items-center justify-center text-center px-4">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Our Services</h1>
@@ -61,7 +61,7 @@ export default function ServicesPage() {
             <div id="service1" data-animate className={`transition-all duration-700 ${visibleSections['service1'] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
               <div className="relative h-80 rounded-xl overflow-hidden shadow-lg mb-6">
                 <Image
-                  src="/images/hero-2.jpg"
+                  src="/counsel.png"
                   alt="Biblical Counseling"
                   fill
                   className="object-cover"
@@ -78,7 +78,7 @@ export default function ServicesPage() {
             <div id="service2" data-animate className={`transition-all duration-700 ${visibleSections['service2'] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
               <div className="relative h-80 rounded-xl overflow-hidden shadow-lg mb-6">
                 <Image
-                  src="/images/hero-3.jpg"
+                  src="/reading bible.png"
                   alt="Prayer & Spiritual Support"
                   fill
                   className="object-cover"
@@ -96,7 +96,7 @@ export default function ServicesPage() {
             <div id="service3" data-animate className={`transition-all duration-700 ${visibleSections['service3'] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
               <div className="relative h-80 rounded-xl overflow-hidden shadow-lg mb-6">
                 <Image
-                  src="/images/hero-4.jpg"
+                  src="/community.png"
                   alt="Community Outreach"
                   fill
                   className="object-cover"
@@ -112,7 +112,7 @@ export default function ServicesPage() {
             <div id="service4" data-animate className={`transition-all duration-700 ${visibleSections['service4'] ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
               <div className="relative h-80 rounded-xl overflow-hidden shadow-lg mb-6">
                 <Image
-                  src="/images/hero-5.jpg"
+                  src="/family.png"
                   alt="Family Reunification"
                   fill
                   className="object-cover"

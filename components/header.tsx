@@ -31,10 +31,10 @@ export function Header() {
           <Link href="/" className="flex items-center gap-3 shrink-0">
             <img src="/logo.png" alt="Shiphrah and Puah's Ministry" className="h-12 w-auto sm:h-14" />
             <div className="flex flex-col">
-              <span className="text-xs sm:text-sm font-bold text-primary leading-tight">
+              <span className="text-lg  font-bold text-secondary leading-tight">
                 Shiphrah & Puah's
               </span>
-              <span className="text-xs font-semibold text-secondary leading-tight">
+              <span className="text-sm font-semibold text-primary leading-tight">
                  Ministry
               </span>
             </div>
