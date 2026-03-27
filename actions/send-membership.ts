@@ -230,7 +230,7 @@ export async function sendMembershipEmail(formData: {
     `;
 
     const { data, error } = await resend.emails.send({
-      from: 'Shiphrah & Puah\'s Ministry <noreply@hopeharborcommunitytransformers.org>',
+      from: 'Shiphrah & Puah\'s Ministry <noreply@shiphrahandpuahministry.org>',
       to: ['shiphrahandpuahministry@gmail.com'],
       subject: `New Member Registration: ${formData.firstName} ${formData.lastName}`,
       html: emailTemplate,
