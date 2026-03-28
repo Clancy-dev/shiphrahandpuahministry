@@ -41,8 +41,8 @@ export default function AboutPage() {
         <div className="relative h-full flex items-center justify-center text-center px-4">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">About Our Ministry</h1>
-            <p className="text-xl opacity-90">
-              Celebrating God&apos;s work through faith, community, and compassionate care
+            <p className="text-xl opacity-90 md:px-8">
+              We are sharing God&apos;s love to how he still has power to create babies, do child spacing and child control on our behalf as humans as we enjoy life.
             </p>
           </div>
         </div>

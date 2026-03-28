@@ -71,7 +71,7 @@ export default function MembershipPage() {
             {[
               {
                 title: 'Community & Support',
-                description: 'Join a caring community of like-minded individuals committed to spreading God&apos;s word on child creation and family planning.',
+                description: 'Join a caring community of like-minded individuals committed to spreading God word on child creation and family planning.',
                 icon: '👥',
               },
               {
